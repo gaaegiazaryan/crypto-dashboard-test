@@ -3,7 +3,7 @@ import vue from "@vitejs/plugin-vue"
 import path from "node:path"
 
 export default defineConfig({
-  base: "/crypto-dashboard/",
+  base: "/crypto-dashboard-test/",
   plugins: [vue()],
   resolve: {
     alias: {
