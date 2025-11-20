@@ -37,7 +37,7 @@ jobs:
           chmod +x node_modules/.bin/vite || true
           npm run build
         env:
-          VITE_API_KEY: "0fddb5d4bfaf9faa7ae28e0416c2d7d4bb03a60b6cfc95bba2d02f62f1fc8fec"
+          VITE_API_KEY: "628246e279ba3b8434ee110ec8e283cf6e9d70d314753fb9d1eb3cf6f9c29b92"
           VITE_API_BASE_URL: "https://rest.coincap.io/v3"
 
       - name: Upload artifact
